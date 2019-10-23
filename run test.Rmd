@@ -1,0 +1,25 @@
+---
+title: "drg boxplot"
+author: "Aaphsaarah Rahman"
+date: "10/23/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+```
+
+
+```{r}
+drg.boxplot("Average.Total.Payments", geom_boxplot )
+drg.boxplot("Average.Medicare.Payments", geom_boxplot )
+```
+
+
+```{r}
+```
+
